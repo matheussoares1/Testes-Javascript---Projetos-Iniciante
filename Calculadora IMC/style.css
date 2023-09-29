@@ -1,0 +1,63 @@
+body {
+    background-color: #202124;
+    color: #000000;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .card {
+    border-radius: 0;
+  }
+  
+  .card-header {
+    border-radius: 0;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-primary:active {
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    filter: invert(1) brightness(200%);
+  }
+  
+  .text-warning {
+    color: #ffc107;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+  }
+  
+  .text-success {
+    color: #28a745;
+  }
+  #resultadoIMC {
+    color: #000000; /* cor do texto */
+    font-size: 1.5rem;
+    text-align: center;
+  }
+    
